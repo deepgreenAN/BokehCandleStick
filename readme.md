@@ -13,3 +13,5 @@ bokeh serve bokeh_candle_stick_main.py
 ```
 jupyter のデモと同様に楽天の一昨日からの5分足のロウソク足チャートを描画している．
 コードの詳細はbokeh_candlestick.ipynbに記載
+
+<img src="http://drive.google.com/uc?export=view&id=1yPJjOEuQDqEPdTD2S3zO8R7Kz2rvGEzZ" alt="ロウソク足チャート" title="ロウソク足チャート">

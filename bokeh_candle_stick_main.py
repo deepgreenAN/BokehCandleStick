@@ -30,8 +30,8 @@ ohlc_dict = {"Open":"Open_4755", "High":"High_4755", "Low":"Low_4755", "Close":"
 
 bokeh_candle_stick = BokehCandleStickDf(stock_df,  
                                         ohlc_dict=ohlc_dict, 
-                                        initial_start_date=start_time,
-                                        initial_end_date=end_time,
+                                        initial_start_datetime=start_time,
+                                        initial_end_datetime=end_time,
                                         freq_str="5T",
                                         y_axis_margin=10,
                                         data_left_times=5,

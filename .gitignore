@@ -4,6 +4,8 @@ __pycache__/
 
 # jupyterの不要部分
 .ipynb_checkpoints/
+Untitled[1-9]+.ipynb
+Untitled.ipynb
 
 # その他
 *.gif

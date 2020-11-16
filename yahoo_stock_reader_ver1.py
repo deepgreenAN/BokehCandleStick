@@ -35,7 +35,7 @@ class YahooFinanceStockLoaderMin():
     def __init__(self, stock_names, past_day=5, column_editor=ColumnNameEditorYahoo(), stop_time_span=2.0, is_use_stop=False, to_tokyo=True):
         """
         stock_names: str or list of str
-            ロードしたい株の銘柄コード，なぜか.Tを付けないとうまく動かない
+            ロードしたい株の銘柄コード，東証なので.Tを付ける
         past_day: int
             ロードしたい日数，現在からこの日数だけロードされる
         column_editor: ColumnNameEditorYahoo
